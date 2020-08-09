@@ -8,6 +8,8 @@ def line(array)
     count = 1
     array.each do |name|
       position << "#{count}. #{name}"
+      count +=1
+    end
     puts "The line is currently: 1. #{array.join(" 2. ")}"
     #count = 1
     #array.each_with_index do |name|
