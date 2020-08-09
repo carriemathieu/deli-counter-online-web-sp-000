@@ -10,12 +10,7 @@ def line(array)
       position << "#{count}. #{name}"
       count +=1
     end
-    puts "The line is currently: 1. #{array.join(" 2. ")}"
-    #count = 1
-    #array.each_with_index do |name|
-     # puts "The line is currently: #{count}. #{name}"
-      #count += 1
-    #end
+    puts "The line is currently: #{array.join(" ")}"
   end
 end
 
