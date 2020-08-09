@@ -4,7 +4,7 @@ def line(array)
   if array.length == 0 
     puts "The line is currently empty."
   else
-    puts array.join(", ") 
+    puts "The line is currently:" array.join(", ") 
     #count = 1
     #array.each_with_index do |name|
      # puts "The line is currently: #{count}. #{name}"
