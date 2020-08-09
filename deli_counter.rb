@@ -6,7 +6,7 @@ def line(array)
   else
     count = 1
     array.each_with_index do |name|
-      puts "The line is currently: #{count}. #{name}"
+      return "The line is currently: #{count}. #{name}"
       count += 1
     end
   end
