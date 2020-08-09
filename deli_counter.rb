@@ -10,7 +10,7 @@ def line(array)
     #array.each_with_index do |name|
      # puts "The line is currently: #{count}. #{name}"
       #count += 1
-    end
+    #end
   end
 end
 
