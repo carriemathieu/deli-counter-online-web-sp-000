@@ -15,7 +15,7 @@ def line(array)
 end
 
 def take_a_number (array, name)
-  array << name
+  #array << name
   count = 1
   array.each do |guest|
     puts "Welcome, #{guest}. You are number #{count} in line."
