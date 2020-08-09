@@ -5,6 +5,7 @@ def line(array)
     puts "The line is currently empty."
   else
     position = []
+    
     puts "The line is currently: 1. #{array.join(" 2. ")}"
     #count = 1
     #array.each_with_index do |name|
