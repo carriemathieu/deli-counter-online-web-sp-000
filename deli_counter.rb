@@ -6,7 +6,7 @@ def line(array)
   else
     position = []
     array.each do |name|
-      
+      position << 
     puts "The line is currently: 1. #{array.join(" 2. ")}"
     #count = 1
     #array.each_with_index do |name|
