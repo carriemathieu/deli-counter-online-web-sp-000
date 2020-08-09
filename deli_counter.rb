@@ -5,7 +5,7 @@ def line(array)
     puts "The line is currently empty."
   else
     count = 1
-    array.each do |name|
+    array.each_with_index do |name|
       puts "The line is currently: #{count}. #{name}"
       count += 1
     end
